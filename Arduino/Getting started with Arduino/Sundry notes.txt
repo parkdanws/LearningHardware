@@ -1,0 +1,35 @@
+Notes
+
+Resistors
+orange orange brown gold: 330 ohm 
+brown black orange gold: 10k ohms
+
+--
+
+light dependent resistor (LDR)
+resistance is high in dark. low in light
+
+--
+
+setting up switch:
+power (5v) to board. to switch. to 10k resistor AND
+digital in. resistor to ground
+
+setting up light:
+board output to board. board to long arm of light
+light to 330 resistor. resistor to ground.
+
+--
+
+pins 0 - 13: digital i/o
+squiggle: analog out
+marked analog in pins. (no need to set pinmode)
+
+analog read returns 0 - 1023
+analog write has range from 0 - 254
+-
+
+Serial communication
+to monitor serial input, click the magnifying 
+glass top right of IDE
+--opens up possibilities for the "Processing Language"
